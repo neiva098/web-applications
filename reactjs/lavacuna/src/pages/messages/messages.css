@@ -1,0 +1,13 @@
+.warning-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.warning-container h1 {
+    margin-right: 40px;
+    word-wrap: none;
+    max-width: 550px;
+}

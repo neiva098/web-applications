@@ -1,0 +1,90 @@
+.aritana-container {
+    margin-bottom: 120px;
+}
+
+.aritana-container h1 {
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.aritana-container ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+    height: 500px;
+}
+
+.aritana-container ul li {
+    background: #FFF;
+    width: 250px;
+    border-radius: 15px;
+    padding: 24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aritana-container ul li .check-plan {
+    background-color: rgb(111, 204, 111);
+    color: white;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    margin-right: 20px;
+    margin-top: 430px;
+    border: 0;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.aritana-container ul li .check-plan:hover {
+    background-color: white;
+    color: rgb(111, 204, 111);
+    border: 1px solid rgb(111, 204, 111);
+}
+
+.aritana-container ul li h2 {
+    color: #41414d;
+    margin-bottom: 15px;
+}
+
+.aritana-container ul li .valor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 100px;
+    border-radius: 13px;
+    font: 800 25px Roboto, sans-serif;
+    color: white;
+    background-color: rgb(111, 204, 111);
+}
+
+.aritana-container ul li .valor strong {
+    margin-top: 15px;
+    margin-left: 6px;
+    color: white;
+    font: 200 15px Roboto, sans-serif;
+}
+
+.aritana-container ul li h3 {
+    margin-top: 15px;
+}
+
+.aritana-container ul li .text-description {
+    margin-top: 15px;
+    font: 100 12px Roboto, sans-serif;
+    color: black;
+    text-align: justify;
+}
+
+.aritana-container img {
+    width: 235px;
+    border-radius: 30px;
+}

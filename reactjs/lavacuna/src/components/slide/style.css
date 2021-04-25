@@ -1,0 +1,60 @@
+.slide-container {
+    margin-top: 90px;
+    height: 400px;
+    width: 80%;
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.slide-container .button {
+    height: 30px;
+    width: 10%;
+    background-color: transparent;
+    opacity: 0.2;
+    color: white;
+    position: relative;
+    transition: 0.3s;
+}
+
+.slide-container .button:hover {
+    background-color: white;
+    color: black;
+}
+
+.slide-container #left {
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+.slide-container #right {
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.slide-container .image-info {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 100px;
+    width: 600px;
+}
+
+.slide-container .image-info h1 {
+    font: 800 25px Roboto, sans-serif;
+    text-align: left;
+    color: rgb(95, 190, 95);
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.slide-container .image-info p {
+    font: 600 15px Roboto, sans-serif;
+    color: rgb(95, 190, 95);
+    width: 60%;
+}

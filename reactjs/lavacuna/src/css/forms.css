@@ -1,0 +1,59 @@
+.form-content {
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-content .form-description {
+    width: 100%;
+    max-width: 380px;
+}
+
+.form-content .form-description .icon {
+    width: 350px;
+    color: #00aeed;
+}
+
+.form-content .form-description h1 {
+    margin: 64px 0 32px;
+    font-size: 32px;
+    text-justify: auto;
+    text-align: left;
+    width: 400px;
+}
+
+.form-content .form-description p {
+    color: #737380;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.form-content form {
+    width: 100%;
+    max-width: 400px;
+    min-width: 250px;
+}
+
+.form-content form h1 {
+    margin-bottom: 20px;
+}
+
+.form-content form h2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.form-content form .checkBox-item {
+    width: 177px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.form-content form input, .form-content form textarea {
+    margin-top: 8px;
+}

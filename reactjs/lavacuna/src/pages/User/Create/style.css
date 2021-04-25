@@ -1,0 +1,11 @@
+.selected-createuser-component {
+    width: 50%;
+}
+
+.selected-createuser-component .button {
+    color: white;
+}
+
+.selected-createuser-component .button:hover {
+    color: rgb(82, 71, 71);
+}
