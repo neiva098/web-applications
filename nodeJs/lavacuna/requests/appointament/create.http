@@ -1,0 +1,11 @@
+POST /api/appointament HTTP/1.1
+Content-Type: application/json
+Host: localhost:3333
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2RpZ28iOiIwNTNjZmRjNS00ZTcyLTQ3ZmItYmJhMi1jYjUxMjU1YmE0ZDciLCJpYXQiOjE2MTgzNzQ0OTEsImV4cCI6MTYxODQ2MDg5MX0._OaxcmCQuazncDEQZ4Uxsg6hleQDbYM4fjBq3RjAt68
+Content-Length: 172
+
+{
+    "codigoMedico": "a1b22d90-0de4-41d5-80cd-cc6249b4aa24",
+    "codigoPaciente": "38a53d0a-d998-457c-913f-20aacd8b0287",
+    "dataHora": "2022-02-19T16:30:00.000Z"
+}

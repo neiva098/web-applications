@@ -1,0 +1,26 @@
+POST /api/users HTTP/1.1
+Content-Type: application/json
+Host: localhost:3333
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2RpZ28iOiIwNTNjZmRjNS00ZTcyLTQ3ZmItYmJhMi1jYjUxMjU1YmE0ZDciLCJpYXQiOjE2MTc4NTE3MDksImV4cCI6MTYxNzkzODEwOX0.HJIwNRfPkgVe7Z76Qk8UKwHPx11uIrznfOIDiLV4X7Y
+Content-Length: 406
+
+{
+	"patientProfile": {
+		"altura": 1,
+		"peso": 11.77,
+		"tipoSanguineo": "O+"
+	},
+	"nome": "Joao",
+	"email": "joao12@cefet.com",
+	"telefone": "319999999",
+	"endereco": {
+		"cep": "31170220",
+		"logradouro": "rua xxx",
+		"bairro": "cidade nova",
+		"cidade": "bh",
+		"estado": "mg",
+		"numero": "333",
+		"complemento": "302"
+	},
+	"codigoEndereco": "b485b977-92e8-4dc3-86dc-65c2333d7d0e"
+}

@@ -1,0 +1,12 @@
+POST /api/address HTTP/1.1
+Content-Type: application/json
+Host: localhost:3333
+Content-Length: 129
+
+{
+    "cep": "31170220",
+    "logradouro": "rua xxx",
+    "bairro": "cidade nova",
+    "cidade": "bh",
+    "estado": "mg"
+}

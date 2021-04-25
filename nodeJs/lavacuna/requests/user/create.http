@@ -1,0 +1,26 @@
+POST /api/users HTTP/1.1
+Content-Type: application/json
+Host: localhost:3333
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2RpZ28iOiIwNjIxZGRkYy1lZGNiLTRjOWUtODgyZi0xNzczM2JjMWNjMjkiLCJpYXQiOjE2MTc1ODg0NTQsImV4cCI6MTYxNzY3NDg1NH0.VT5WeDb3DTXyTU0bj572KD2CGXb5R7wYd0Z4u0w-VVg
+Content-Length: 425
+
+{
+	"employeeProfile": {
+		"dataContrato": "2020-01-01",
+		"salario": 11.77,
+		"senha": "senha123"
+	},
+	"nome": "Joao",
+	"email": "joao1123@cefet.com",
+	"telefone": "319999999",
+	"endereco": {
+		"cep": "31170220",
+		"logradouro": "rua xxx",
+		"bairro": "cidade nova",
+		"cidade": "bh",
+		"estado": "mg",
+		"numero": "333",
+		"complemento": "302"
+	},
+	"codigoEndereco": "b485b977-92e8-4dc3-86dc-65c2333d7d0e"
+}

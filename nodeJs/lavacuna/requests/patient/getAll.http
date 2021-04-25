@@ -1,0 +1,3 @@
+GET /api/patient HTTP/1.1
+Host: localhost:3333
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2RpZ28iOiIwNTNjZmRjNS00ZTcyLTQ3ZmItYmJhMi1jYjUxMjU1YmE0ZDciLCJpYXQiOjE2MTgzNTAzNjAsImV4cCI6MTYxODQzNjc2MH0.IpoLRbiHzEncFh_GQl3LCfNsiosek_kMdLo7X2mBB48
